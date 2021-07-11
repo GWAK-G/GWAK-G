@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>counter in java script</title>
+	<style type="text/css">
+		
+		*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	display: grid;
+	
+	height: 100vh
+	background: #f2f8ff;
+	padding:0;
+	margin:0;
+}
+#container{
+	height: 400px;
+	width: 400px;
+	background:#fff;
+	border: 1px solid;
+	position:relative; 
+}
+#container h2 {
+	color: #1479ff
+	font-size:50px;
+	position: absolute;
+	top: 8%;
+	left: 25%;
+}
+.container h1{
+	width:123px;
+	height:127px;
+	text-align:center;
+	font-size: 110px;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	color: 
+}
+.buttons {
+	height: 50px;
+	width: 260px;
+	position: absolute;
+	bottom: 8%;
+	left: 70px;
+}
+.buttons button{
+	height: 50px;
+	width: 120px;
+	background: #1479ff
+	outline:none;
+	border-radius: 5px;
+	color: #fff;
+	border:1px solid #1911c213;
+	cursor: pointer;
+}
+.increment{
+	position: absolute;
+	right: 0;
+}
+
+	</style>
+</head>
+<bod>
+
+	<div id="contaniner">
+		<h2> COUNTER </h2>
+		<h1 id="counterValue">0</h1>
+	<div id="buttons">
+		<button id="decrement"> LOWER COUNT </button><br>
+		<button id="increment"> ADD COUNT</button>
+	</div>
+	</div>
+		
+
+		<script type="text/javascript">
+			let increment = document.queryselector("#increment");
+			let decrement = document.queryselector("#decrement");
+			let counterValue = document.queryselector("#counterValue");
+
+			let counter = 0 <= 50:
+			increment.addEventListener("click",()=>{
+			counter++;
+			counter value.innerText = counter;
+			})
+			decrement.addEventListener("click",()=>{
+			counter--;
+			counter value.innerText = counter;
+			})
+		</script>
+</body>
+</html>
